@@ -20,6 +20,7 @@ import { ScrollToTop } from "./components/common/ScrollToTop";
 import Home from "./pages/Dashboard/Home";
 
 export default function App() {
+  console.log("App component rendered");
   return (
     <>
       <Router>
